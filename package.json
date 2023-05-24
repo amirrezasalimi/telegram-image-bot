@@ -1,0 +1,13 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "esbuild index.js --platform=node  --format=cjs  --bundle --outdir=dist && node dist/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "latest",
+    "esbuild": "latest",
+    "telegraf": "latest"
+  }
+}
